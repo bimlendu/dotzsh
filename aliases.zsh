@@ -19,3 +19,5 @@ alias gg="git graph"
 alias gco="git checkout"
 
 alias tree='tree -CAFa -I "CVS|*.*.package|.svn|.git|.hg|node_modules|bower_components" --dirsfirst'
+
+alias _open='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl .'
