@@ -1,0 +1,10 @@
+function waitforssh () {
+  ssh $1
+  while test $? -gt 0
+  do
+    echo "$1 not up yet!"
+    sleep 5
+    echo "Trying again..."
+    ssh $1
+  done
+}
